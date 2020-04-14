@@ -1,0 +1,17 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Fake REST API for testing",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch customer.json",
+
+// Η εντολή με την οποία σηκώνεται ο server
+    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/customer"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.11.2"
+  }
+}

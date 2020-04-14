@@ -1,0 +1,17 @@
+GET ALL customers
+http://localhost:3000/customers
+
+GET SINGLE customer
+http://localhost:3000/customers/1
+
+
+
+run the json-server:
+
+json-server --watch customer.json
+
+if you want to change port:
+json-server --watch customer.json --port 8081
+
+
+ 
